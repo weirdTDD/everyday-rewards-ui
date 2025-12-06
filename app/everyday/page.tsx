@@ -7,22 +7,22 @@ const page = () => {
   return (
     <div className='pt-20 pb-10 min-h-screen mx-auto'>
         <div className='flex flex-col items-center justify-center gap-6'>
-            <div className='absolute top-10 left-5'><ArrowLeftCircleIcon className="w-7 h-7 font-bold text-orange-600"/></div>
+            <div className='absolute top-10 left-5'><ArrowLeftCircleIcon className="w-7 h-7 font-bold text-orange-500"/></div>
             <div className='pt-10'>
-                <h1 className='text-2xl/5 text-orange-600 font-sans font-black'>everyday <br/> rewards</h1>
+                <h1 className='text-2xl/5 text-orange-500 font-sans font-black'>everyday <br/> rewards</h1>
             </div>
              
-             <Image
+            <Image
                 src="/login-ui.png"
                 alt="Everyday Rewards"
                 width={300}
                 height={300}
                 className=' pt-12 px-10 pb-0 z-10'
-               
-             />
+                loading='eager'
+            />
 
             <div className='flex flex-col items-center justify-center gap-1 mx-16 md:mx-auto mb-24 '>
-                <h2 className='text-2xl font-semibold text-gray-700 text-center mx-4'>Welcome to Everyday Rewards</h2>
+                <h2 className='xs:text-lg text-2xl font-semibold text-gray-700 text-center mx-4'>Welcome to Everyday Rewards</h2>
                 <p className='text-sm font-normal text-gray-500 text-center'>Unlock app-only points boosters, track your savings and access your digital Everyday day  Rewards Card</p>
             </div>
 
